@@ -1,0 +1,25 @@
+{
+  "name": "mmcn-google-tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattMcNam/mmcn-google-tts.git"
+  },
+  "author": "Matthew McNamara <matt@mattmcn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattMcNam/mmcn-google-tts/issues"
+  },
+  "nodecg": {
+    "compatibleRange": "~0.8.0"
+  },
+  "homepage": "https://github.com/MattMcNam/mmcn-google-tts#readme",
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  }
+}

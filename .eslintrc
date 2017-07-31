@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "root": "true",
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": [1, "always"],
+    "indent": [1, 4, {"SwitchCase": 1}],
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "no-var": 2
+  },
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "Promise": true,
+    "nodecg": true
+  }
+}
